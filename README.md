@@ -17,11 +17,17 @@ Through this project, we aim to:
 **Dataset Description:**
 - The project uses six structured CSV files, imported into a MySQL database named ENERGYDB2.
 | Table Name    | Description                            | Key Columns                                                         | Relationship   |
+
 | ------------- | -------------------------------------- | ------------------------------------------------------------------- | -------------- |
+
 | `country`     | Master table of countries              | `CID`, `Country`                                                    | Primary table  |
+
 | `consumption` | Energy consumption by country and year | `country`, `energy`, `year`, `consumption`                          | FK → `country` |
+
 | `production`  | Energy production data                 | `country`, `energy`, `year`, `production`                           | FK → `country` |
+
 | `emission_3`  | CO₂ emission statistics                | `country`, `energy_type`, `year`, `emission`, `per_capita_emission` | FK → `country` |
+
 | `population`  | Population by country and year         | `countries`, `year`, `Value`                                        | FK → `country` |
 | `gdp_3`       | GDP (PPP) data by country and year     | `Country`, `year`, `Value`                                          | FK → `country` |
 
