@@ -16,6 +16,8 @@ Through this project, we aim to:
 
 **Dataset Description:**
 - The project uses six structured CSV files, imported into a MySQL database named ENERGYDB2.
+
+
 | Table Name    | Description                            | Key Columns                                                         | Relationship   |
 
 | ------------- | -------------------------------------- | ------------------------------------------------------------------- | -------------- |
