@@ -31,9 +31,13 @@ Through this project, we aim to:
 country (1)
 │
 ├──< emission_3
+
 ├──< population
+
 ├──< production
+
 ├──< consumption
+
 └──< gdp_3
 
 **Database Creation & Setup:**
